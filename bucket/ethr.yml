@@ -1,0 +1,12 @@
+version: 1.0.0
+description: Comprehensive Network Measurement Tool for TCP, UDP & ICMP
+homepage: https://github.com/Microsoft/ethr
+license:
+  identifier: MIT
+  url: https://github.com/microsoft/ethr/blob/master/LICENSE
+url: https://github.com/Microsoft/ethr/releases/download/v1.0.0/ethr_osx.zip
+hash: debbaf0dc4437d9d14f9de613abe58ca4074814f1f77345697e924bd29e9a47f
+bin: ethr
+checkver: github
+autoupdate:
+  url: https://github.com/Microsoft/ethr/releases/download/v$version/ethr_osx.zip
