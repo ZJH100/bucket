@@ -1,0 +1,34 @@
+{
+    "homepage": "https://github.com/cataerogong/keymap",
+    "description": "A very simple page to visualize keyboard shortcuts",
+    "version": "3.5.3",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/cataerogong/keymap/releases/download/v$version/keymap-$version-all.zip",
+            "hash": "F43DD2E23344F3D860E3FEAB566D79AD5160CEFE54A1586535BB96701E062308",
+            "installer": {
+                "script": [
+                    "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -ErrorAction SilentlyContinue"
+                ]
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "keymap.exe",
+            "Keymap"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/cataerogong/keymap",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/cataerogong/keymap/releases/download/v$version/keymap-$version-all.zip"
+            }
+        }
+    }
+}
