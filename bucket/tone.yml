@@ -1,4 +1,4 @@
-version: 0.2.5
+version: 0.2.4
 description: Cross platform audio tagger and metadata editor to dump and modify metadata for a wide variety of formats.
 homepage: https://github.com/sandreas/tone
 license: Apache-2.0
