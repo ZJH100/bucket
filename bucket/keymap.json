@@ -30,5 +30,12 @@
                 "url": "https://github.com/cataerogong/keymap/releases/download/v$version/keymap-$version-all.zip"
             }
         }
-    }
+    },
+    "notes": [
+        "Thanks for installing Keymap!",
+        "You can use it by:",
+        "1. Launch Keymap from Start Menu",
+        "2. Check system tray icon for more options",
+        "3. Press any key or key combinations to see the visualization"
+    ]
 }

@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+      "description": "Ensure all manifests follow the standard Scoop JSON format.",
+      "path": "*/bucket/*.json",
+      "activity": "Maintain JSON schema integrity"
+    },
+    {
+      "description": "Validate hashes for each application download link.",
+      "path": "*/bucket/*.json",
+      "activity": "Verify SHA256 checksum validity"
+    },
+    {
+      "description": "Check for correct versioning and application updates.",
+      "path": "*/bucket/*.json",
+      "activity": "Update application version and check for latest releases"
+    },
+    {
+      "description": "Optimize naming conventions and file paths in the bucket.",
+      "path": "*/bucket/*.json",
+      "activity": "Standardize naming conventions"
+    }
+  ]
+}
