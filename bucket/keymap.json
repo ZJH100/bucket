@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cataerogong/keymap/releases/download/v$version/keymap-$version-all.zip",
-            "hash": "F43DD2E23344F3D860E3FEAB566D79AD5160CEFE54A1586535BB96701E062308",
+            "url": "https://github.com/cataerogong/keymap/releases/download/v3.5.3/keymap-3.5.3-all.zip",
+            "hash": "de42f71d6e4ca1c96607e1c87b42b1412e719814c06badeef2f6e2975b78a42c",
             "installer": {
                 "script": [
                     "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse -ErrorAction SilentlyContinue"
@@ -27,7 +27,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cataerogong/keymap/releases/download/v$version/keymap-$version-all.zip"
+                "url": "https://github.com/cataerogong/keymap/releases/download/v3.5.3/keymap-3.5.3-all.zip"
             }
         }
     },

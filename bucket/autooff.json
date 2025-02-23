@@ -1,4 +1,5 @@
 {
+
     "homepage": "https://www.starcodec.com/en/autooff/",
     "description": "AutoOff is a program which shut down or restart Windows at a time specified by you.",
     "version": "4.2.5",
@@ -30,7 +31,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pintosoft/AutoOff/releases/download/$version/AutoOff_$version.exe"
+                "url": "https://github.com/pintosoft/AutoOff/releases/download/4.25/AutoOff_4.25.exe#/dl.7z"
             }
         }
     }
