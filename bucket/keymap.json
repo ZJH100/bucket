@@ -27,7 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/cataerogong/keymap/releases/download/v3.5.3/keymap-3.5.3-all.zip"
+                "url": "https://github.com/cataerogong/keymap/releases/download/v3.5.3/keymap-3.5.3-all.zip",
+                "hash": {
+                    "mode": "download"
+                }
             }
         }
     },

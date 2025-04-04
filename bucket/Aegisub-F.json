@@ -1,0 +1,43 @@
+{
+    "version": "feature_12",
+    "description": "Aegisub字幕编辑工具，新特性分支版本",
+    "homepage": "https://github.com/arch1t3cht/Aegisub",
+    "license": {
+        "identifier": "BSD-3-Clause AND MIT AND MPL-1.1",
+        "url": "https://github.com/arch1t3cht/Aegisub/raw/refs/heads/feature/LICENCE"
+    },
+    "url": [
+        "https://github.com/arch1t3cht/Aegisub/releases/download/feature_12/Windows.MSVC.Release.-.portable.zip"
+    ],
+    "hash": [
+        "F85B4946FF21A2BCE736411B9034431937CAD828994B24301208475DB769F2D0"
+    ],
+    "pre_install": [
+        "# 解压",
+        "New-Item -Path \"$dir\\_temp\" -ItemType Directory | Out-Null",
+        "Expand-Archive -Path \"$dir\\*.zip\" -DestinationPath \"$dir\\_temp\" -Force",
+
+        "# 移动文件",
+        "Get-ChildItem \"$dir\\_temp\\*\" | Move-Item -Destination \"$dir\\\" -Force",
+
+        "# 清理zip文件",
+        "Get-ChildItem \"$dir\\*.zip\" | Remove-Item -Force",
+
+        "# 深度清理",
+        "Get-ChildItem \"$dir\\_temp\" -Recurse | Remove-Item -Force -Recurse",
+        "Remove-Item \"$dir\\_temp\" -Force"
+    ],
+    "shortcuts": [
+        [
+            "aegisub-portable/aegisub.exe",
+            "Aegisub-F"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/arch1t3cht/Aegisub/releases/download/$version/Windows.MSVC.Release.-.portable.zip",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
