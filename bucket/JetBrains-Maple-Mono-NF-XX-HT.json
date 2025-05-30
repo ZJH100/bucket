@@ -1,10 +1,10 @@
 {
-    "version": "1.2304.72",
+    "version": "1.2304.73",
     "description": "JetBrains Maple Mono: The free and open-source font fused with JetBrains Mono & Maple Mono",
     "homepage": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono",
     "license": "OFL-1.1",
-    "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.72/JetBrainsMapleMono-NF-XX-HT.zip",
-    "hash": "0c107a2ca293c3b084b06077509cd2987891e601b2f5bb32a8f30ce0a0e5b7fd",
+    "url": "https://github.com/SpaceTimee/Fusion-JetBrainsMapleMono/releases/download/1.2304.73/JetBrainsMapleMono-NF-XX-HT.zip",
+    "hash": "4c51f3101ffb63c863e2f16761bf90b1f0de1b70a6019e6ca6a66c659ced820a",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
