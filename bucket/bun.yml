@@ -1,14 +1,14 @@
-version: 1.2.21
+version: 1.2.22
 description: All-in-one toolkit for JavaScript and TypeScript apps.
 homepage: https://bun.sh
 license: MIT
 architecture:
   64bit:
-    url: https://github.com/oven-sh/bun/releases/download/bun-v1.2.21/bun-darwin-x64.zip
-    hash: d84602f55bf72c45d5733e59c511c88598509fb44213ef0713a96a020d2b5f85
+    url: https://github.com/oven-sh/bun/releases/download/bun-v1.2.22/bun-darwin-x64.zip
+    hash: a7484721a7ead45887c812e760b124047e663173cf2a3ba7c5aa1992cb22cd3e
   arm64:
-    url: https://github.com/oven-sh/bun/releases/download/bun-v1.2.21/bun-darwin-aarch64.zip
-    hash: fd886630ba15c484236ad5f3f22b255d287c3eef8d3bc26fc809851035c04cec
+    url: https://github.com/oven-sh/bun/releases/download/bun-v1.2.22/bun-darwin-aarch64.zip
+    hash: eb8c7e09cbea572414a0a367848e1acbf05294a946a594405a014b1fb3b3fc76
 bin: bun
 checkver:
   github: https://github.com/oven-sh/bun
