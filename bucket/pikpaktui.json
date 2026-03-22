@@ -1,0 +1,31 @@
+{
+    "homepage": "https://github.com/Bengerthelorf/pikpaktui",
+    "description": "A TUI and CLI client for PikPak cloud storage written in Rust",
+    "version": "0.0.54",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/v0.0.54/pikpaktui-x86_64-windows.zip",
+            "hash": "77b89aa72e9c995d17fcfb163746b5fc0c1b8b79de62481a51ef558b09a97162"
+        },
+        "arm64": {
+            "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/v0.0.54/pikpaktui-aarch64-windows.zip",
+            "hash": "a4e553211e21885e4f05c10b7ba6913609531d605a4ff9a15cd631f6a315a000"
+        }
+    },
+    "bin": "pikpaktui.exe",
+    "checkver": {
+        "github": "https://github.com/Bengerthelorf/pikpaktui"
+    },
+    "autoupdate": {
+        "github": "https://github.com/Bengerthelorf/pikpaktui",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/$version/pikpaktui-x86_64-windows.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Bengerthelorf/pikpaktui/releases/download/$version/pikpaktui-aarch64-windows.zip"
+            }
+        }
+    }
+}
